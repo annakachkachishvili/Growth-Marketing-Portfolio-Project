@@ -87,15 +87,32 @@ def fetch_transcript(video_url: str) -> dict:
     resp.raise_for_status()
     data = resp.json()
 
-    # Supadata returns "content" as a list of {text, offset, duration} segments.
+    # Supadata returns "content" as a list of {text, offset(ms), duration} segments.
     content = data.get("content")
-    if isinstance(content, list):
-        text = " ".join(seg.get("text", "") for seg in content)
-    elif isinstance(content, str):
-        text = content
-    else:
-        text = ""
-    return {"text": text, "title": data.get("title", "")}
+    segments = content if isinstance(content, list) else []
+    return {"segments": segments, "title": data.get("title", "")}
+
+
+def _mmss(ms: int) -> str:
+    s = int(ms / 1000)
+    return f"{s // 60:02d}:{s % 60:02d}"
+
+
+def format_transcript(segments: list, group_seconds: int = 30) -> str:
+    """Group caption segments into ~group_seconds paragraphs, each prefixed with a timestamp."""
+    paragraphs = []
+    cur, cur_start = [], None
+    for seg in segments:
+        off = seg.get("offset", 0)
+        if cur_start is None:
+            cur_start = off
+        cur.append((seg.get("text", "") or "").strip())
+        if off - cur_start >= group_seconds * 1000:
+            paragraphs.append((cur_start, " ".join(t for t in cur if t)))
+            cur, cur_start = [], None
+    if cur:
+        paragraphs.append((cur_start or 0, " ".join(t for t in cur if t)))
+    return "\n\n".join(f"**[{_mmss(start)}]** {text}" for start, text in paragraphs)
 
 
 def main():
@@ -121,19 +138,23 @@ def main():
                 print(f"  ! FAILED {url}: {e}")
                 continue
 
-            if not result["text"]:
+            if not result["segments"]:
                 print(f"  ! No transcript returned for {url}")
                 continue
 
             title = TITLES.get(extract_video_id(url)) or result["title"] or url.split("=")[-1]
+            body = format_transcript(result["segments"])
             fname = author_dir / f"{slugify(title)}.md"
             fname.write_text(
                 f"# {title}\n\n"
                 f"- **Author:** {author}\n"
                 f"- **Source:** {url}\n"
                 f"- **Collected:** {time.strftime('%Y-%m-%d')}\n"
-                f"- **Method:** Supadata YouTube Transcript API\n\n"
-                f"---\n\n{result['text']}\n",
+                f"- **Method:** Supadata YouTube Transcript API\n"
+                f"- *Auto-generated transcript, formatted into timestamped paragraphs for readability. "
+                f"Transcription artifacts (e.g. \"GBT\" for GPT) are verbatim from the auto-captions.*\n\n"
+                f"---\n\n"
+                f"## Transcript\n\n{body}\n",
                 encoding="utf-8",
             )
             done += 1

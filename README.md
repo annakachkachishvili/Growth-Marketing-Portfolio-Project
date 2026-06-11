@@ -107,7 +107,7 @@ The full annotated list with links is in **[`/research/sources.md`](research/sou
 
 ## How content was collected
 
-* **YouTube transcripts** — pulled programmatically with the **Supadata API** via `scripts/fetch_youtube_transcripts.py`. The script reads a list of recent video URLs per author, fetches each transcript, and saves it as Markdown (with source link and collection date) under `research/youtube-transcripts/<author>/`.
+* **YouTube transcripts** — pulled programmatically with the **Supadata API** via `scripts/fetch_youtube_transcripts.py`. The script fetches each transcript and saves it as Markdown under `research/youtube-transcripts/<author>/`, formatted into timestamped paragraphs. Each file opens with a **"Key points" synthesis** (my own notes distilling the tactics, with a skeptical caveat where the video is a sales pitch), followed by the verbatim transcript as the source. See `research/youtube-transcripts/README.md` for the index.
 * **LinkedIn posts** — collected manually from each author's recent public posts (last ~3 months). LinkedIn requires authentication and its terms forbid automated scraping, so manual collection is the compliant route the brief explicitly allows.
 
 Commits are made incrementally as material is gathered, so the history reflects steady progress rather than one final dump.
