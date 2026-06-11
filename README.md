@@ -120,6 +120,19 @@ README.md                         # this file (Step 1 setup + Step 2 research)
 
 Commits are made incrementally as material is gathered, so the history reflects steady progress rather than one final dump.
 
+## Tools & workflow
+
+This project was built with an AI-assisted workflow — using AI tools as leverage while keeping my own judgment on topic choice, expert selection, verification, and synthesis.
+
+- **Claude Code** — my primary research and drafting assistant for this step.
+- **Claude browser extension** — used to navigate each expert's public LinkedIn activity and collect their posts.
+- **Supadata API + Python** (see [`/scripts`](scripts/)) — to pull YouTube transcripts programmatically.
+- **Git / GitHub** — version control, with small incremental commits throughout.
+
+*(The Step 1 environment was set up in Cursor IDE with the Claude Code and Codex extensions.)*
+
+The judgment calls — which topic to pick, which experts made the cut, who to drop, how to verify recency, and what the cross-cutting themes mean — were mine. The AI tools accelerated the execution; they didn't make the decisions.
+
 ## Early synthesis
 
 I didn't want to stop at collecting links. [`research/key-themes.md`](research/key-themes.md) distills the cross-cutting patterns across all 10 experts — e.g. *"AEO is an extension of SEO, not a new channel," "win on information gain, not polish," "ground the model in real data and build systems not prompts," "measure AI visibility like polling"* — and maps each theme to the experts who support it and what it implies for a playbook. It's an early read, but it shows the material is already converging on a clear structure.
