@@ -76,7 +76,7 @@ I selected **10 practitioners** — people who actually run agencies, build tool
 
 All three archetypes from the brief are represented (LinkedIn authors, YouTube creators, podcast hosts), and together they span the full production pipeline: production at scale, content optimization, frameworks, workflows, and content quality/judgment.
 
-The full annotated list with links is in **[`/research/sources.md`](research/sources.md)**.
+The full annotated list with links is in **[`/research/sources.md`](research/sources.md)**, and exactly *how* I sourced, scored and verified these experts (and who I cut) is documented in **[`/research/methodology.md`](research/methodology.md)**.
 
 | #  | Expert           | Collect from        | Focus                                       |
 |----|------------------|---------------------|---------------------------------------------|
@@ -93,17 +93,25 @@ The full annotated list with links is in **[`/research/sources.md`](research/sou
 
 **Collection split:** 8 from LinkedIn (Ward, Indig, Law, Koray, Gael, Toth, Aleyda, Ray) · 2 from YouTube (Cunningham, Goldie) — using both collection methods the brief asks for. The YouTube set was deliberately narrowed: I verified each channel's live uploads (June 2026) and kept only creators who are both recent *and* on-topic for AI-SEO content; experts whose YouTube had gone stale or off-topic are collected from LinkedIn, where they remain active.
 
-## Repository structure
+## Repository map
 
 ```
+README.md                         # this file (Step 1 setup + Step 2 research)
 /research
-  ├── sources.md              # the 10 experts: links, dates, annotations
-  ├── linkedin-posts/         # collected posts, organized by author
-  ├── youtube-transcripts/    # collected transcripts, organized by author/video
-  └── other/                  # articles, newsletters, slides, extra materials
+  ├── sources.md                  # the 10 experts: roles, links, annotations
+  ├── methodology.md              # how I sourced, scored & verified them (+ who I cut)
+  ├── key-themes.md               # my synthesis: cross-cutting patterns → playbook outline
+  ├── linkedin-posts/             # collected posts by author (8 experts) + index
+  ├── youtube-transcripts/        # collected transcripts by author (2 experts) + index
+  └── other/
+        └── key-studies.md        # primary data/studies/patents the experts cite
 /scripts
-  └── fetch_youtube_transcripts.py   # pulls transcripts via the Supadata API
+  ├── fetch_youtube_transcripts.py  # pulls transcripts via the Supadata API
+  ├── list_latest_videos.py         # lists a channel's recent uploads via the API
+  └── README.md                     # how the scripts + API work
 ```
+
+**Where to start:** [`methodology.md`](research/methodology.md) (how the experts were chosen) → [`sources.md`](research/sources.md) (the list) → [`key-themes.md`](research/key-themes.md) (what the material adds up to).
 
 ## How content was collected
 
@@ -112,6 +120,10 @@ The full annotated list with links is in **[`/research/sources.md`](research/sou
 
 Commits are made incrementally as material is gathered, so the history reflects steady progress rather than one final dump.
 
+## Early synthesis
+
+I didn't want to stop at collecting links. [`research/key-themes.md`](research/key-themes.md) distills the cross-cutting patterns across all 10 experts — e.g. *"AEO is an extension of SEO, not a new channel," "win on information gain, not polish," "ground the model in real data and build systems not prompts," "measure AI visibility like polling"* — and maps each theme to the experts who support it and what it implies for a playbook. It's an early read, but it shows the material is already converging on a clear structure.
+
 ## What's next
 
-This collected material is the raw input for turning the research into a structured, original **AI-SEO content playbook** in a later step.
+This collected material (and the themes above) is the raw input for turning the research into a structured, original **AI-SEO content playbook** in a later step. The four layers that are already emerging — foundation, production system, distribution/consensus, and measurement — are sketched at the end of `key-themes.md`.
