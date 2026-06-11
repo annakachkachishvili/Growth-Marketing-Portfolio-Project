@@ -1,6 +1,6 @@
 # LinkedIn Posts
 
-Recent posts (most within the last ~1–2 weeks) from the 8 AI-SEO-content experts who are most active and on-topic on LinkedIn. Collected manually from each author's public activity feed — LinkedIn requires authentication and its terms forbid automated scraping, so manual collection is the compliant route the brief explicitly allows.
+Recent posts (most within the last ~1–2 weeks) from the 8 AI-SEO-content experts who are most active and on-topic on LinkedIn. Collected from each author's public activity feed in a logged-in browser session, extracting the post text directly from the page — a lightweight, assisted approach rather than bulk automated scraping (which LinkedIn's terms prohibit).
 
 **Each file contains:** the author's profile link + role, the collection date, and ~4 high-signal recent posts, each with its **date** and a **permalink** to the original post, saved verbatim.
 

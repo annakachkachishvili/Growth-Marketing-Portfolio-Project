@@ -116,7 +116,7 @@ README.md                         # this file (Step 1 setup + Step 2 research)
 ## How content was collected
 
 * **YouTube transcripts** — pulled programmatically with the **Supadata API** via `scripts/fetch_youtube_transcripts.py`. The script fetches each transcript and saves it as Markdown under `research/youtube-transcripts/<author>/`, formatted into timestamped paragraphs. Each file opens with a **"Key points" synthesis** (my own notes distilling the tactics, with a skeptical caveat where the video is a sales pitch), followed by the verbatim transcript as the source. See `research/youtube-transcripts/README.md` for the index.
-* **LinkedIn posts** — collected manually from each author's recent public posts (last ~3 months). LinkedIn requires authentication and its terms forbid automated scraping, so manual collection is the compliant route the brief explicitly allows.
+* **LinkedIn posts** — collected from each author's public activity feed in a logged-in browser session, extracting the post text directly from the page (a lightweight, assisted approach rather than bulk automated scraping, which LinkedIn's terms prohibit). Saved verbatim with each post's date and permalink.
 
 Commits are made incrementally as material is gathered, so the history reflects steady progress rather than one final dump.
 

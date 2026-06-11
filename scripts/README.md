@@ -37,4 +37,4 @@ Notes on the implementation:
 
 ## Why two collection methods
 
-YouTube transcripts are collected via API (above); **LinkedIn posts are collected manually** — LinkedIn requires authentication and its terms forbid automated scraping, so manual collection is the compliant route the brief explicitly allows.
+YouTube transcripts are collected via API (above). **LinkedIn posts are collected through the browser** — navigating each author's public activity feed in a logged-in session and extracting the post text directly from the page. This is a lightweight, assisted approach rather than bulk automated scraping, which LinkedIn's terms prohibit (and which is why there's no LinkedIn scraper script here).

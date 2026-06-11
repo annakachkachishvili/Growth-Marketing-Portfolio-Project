@@ -3,7 +3,7 @@
 - **Profile:** https://www.linkedin.com/in/lily-ray-44755615/
 - **Role:** VP, SEO & AI Search at Amsive; Founder of Algorythmic
 - **Collected:** 2026-06-12
-- **Method:** Manual collection from public LinkedIn activity (most recent, on-topic posts)
+- **Method:** Browser-based collection from the author's public activity feed (logged-in session; post text extracted from the page, not bulk scraped)
 - **Note:** Lily is the project's "quality & judgment" voice — the "is this genuinely good, or AI-generated/manipulative garbage?" lens.
 
 ---

@@ -3,7 +3,7 @@
 - **Profile:** https://www.linkedin.com/in/jakezward/
 - **Role:** Co-founder, Byword (AI content tool); programmatic SEO + AI content at scale
 - **Collected:** 2026-06-12
-- **Method:** Manual collection from public LinkedIn activity (most recent, on-topic posts)
+- **Method:** Browser-based collection from the author's public activity feed (logged-in session; post text extracted from the page, not bulk scraped)
 
 ---
 

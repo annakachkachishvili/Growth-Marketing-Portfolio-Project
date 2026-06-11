@@ -3,7 +3,7 @@
 - **Profile:** https://www.linkedin.com/in/gael-breton-78305118/
 - **Role:** Co-founder of Authority Hacker; teaches non-technical marketers to leverage AI + automation
 - **Collected:** 2026-06-12
-- **Method:** Manual collection from public LinkedIn activity (most recent on-topic posts; ~1 month old at time of collection)
+- **Method:** Browser-based collection from the author's public activity feed (logged-in session; not bulk scraped). Posts ~1 month old at time of collection.
 - **Note:** Gael is the deliberate "thoughtful skeptic of mass AI content" voice in this set — his posts focus on making AI content *good* rather than generic.
 
 ---

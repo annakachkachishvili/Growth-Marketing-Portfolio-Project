@@ -3,7 +3,7 @@
 - **Profile:** https://www.linkedin.com/in/aleyda/
 - **Role:** SEO Consultant & Founder at Orainti; curator of SEOFOMO & AI Marketers newsletters; creator of LearningSEO.io and LearningAIsearch.com
 - **Collected:** 2026-06-12
-- **Method:** Manual collection from public LinkedIn activity (most recent, on-topic posts)
+- **Method:** Browser-based collection from the author's public activity feed (logged-in session; post text extracted from the page, not bulk scraped)
 - **Note:** Aleyda is the project's "current-awareness / curator" voice — much of her value is surfacing and framing the most important AI-search developments each week.
 
 ---
