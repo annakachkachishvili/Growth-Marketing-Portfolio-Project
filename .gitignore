@@ -10,3 +10,6 @@ venv/
 
 # OS
 .DS_Store
+
+# Scratch (research helper output, not part of the deliverable)
+latest-videos-found.md

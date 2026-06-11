@@ -18,14 +18,16 @@ All three archetypes from the brief are represented — LinkedIn authors, YouTub
 | 2 | Jesse Cunningham | Founder, SEO agency | **YouTube** | [@jessecunninghamv](https://www.youtube.com/@jessecunninghamv) |
 | 3 | Bernard Huang | Founder, Clearscope | **LinkedIn** | [in/bernardjhuang](https://www.linkedin.com/in/bernardjhuang/) |
 | 4 | Ryan Law | Dir. of Content, Ahrefs | **LinkedIn** | [in/thinkingslow](https://www.linkedin.com/in/thinkingslow) |
-| 5 | Koray T. Gübür | Founder, Holistic SEO | **YouTube** | [@TopicalAuthority](https://www.youtube.com/@TopicalAuthority) |
+| 5 | Koray T. Gübür | Founder, Holistic SEO | **LinkedIn** | [in/koray-tugberk-gubur](https://www.linkedin.com/in/koray-tugberk-gubur) |
 | 6 | Julian Goldie | Founder, Goldie Agency | **YouTube** | [@JulianGoldieSEO](https://www.youtube.com/@JulianGoldieSEO) |
-| 7 | Gael Breton | Co-founder, Authority Hacker | **YouTube** | [@AuthorityHacker](https://www.youtube.com/@AuthorityHacker) |
+| 7 | Gael Breton | Co-founder, Authority Hacker | **LinkedIn** | [in/gael-breton-78305118](https://www.linkedin.com/in/gael-breton-78305118) |
 | 8 | Steve Toth | Founder, SEO Notebook | **LinkedIn** | [in/stevetothjr](https://www.linkedin.com/in/stevetothjr/) |
-| 9 | Aleyda Solis | Founder, Orainti | **YouTube** | [Crawling Mondays](https://www.youtube.com/c/crawlingmondaysbyaleyda) |
+| 9 | Aleyda Solis | Founder, Orainti | **LinkedIn** | [in/aleyda](https://www.linkedin.com/in/aleyda) |
 | 10 | Lily Ray | VP SEO & AI Search, Amsive | **LinkedIn / YouTube** | [in/lily-ray-44755615](https://www.linkedin.com/in/lily-ray-44755615) · [@lilyray](https://www.youtube.com/@lilyray) |
 
-**Collection split:** 5 from LinkedIn (Ward, Huang, Law, Toth, Ray) · 5 from YouTube (Cunningham, Koray, Goldie, Breton, Solis).
+**Collection split:** 8 from LinkedIn (Ward, Huang, Law, Koray, Gael, Toth, Aleyda, Ray) · 2 from YouTube (Cunningham, Goldie).
+
+> **Why this split:** I verified each YouTube channel's live uploads (June 2026). Only Jesse Cunningham and Julian Goldie are both *recent* and *on-topic* for AI-SEO content. Koray's YouTube is ~9 months stale and Aleyda's ~5 months, while Gael Breton's recent uploads drifted to general AI-industry news. All three remain strong experts but are far more active on LinkedIn, so I collect their recent material there. (See decision log, Entry 5.)
 
 ---
 
@@ -49,30 +51,30 @@ All three archetypes from the brief are represented — LinkedIn authors, YouTub
 - **LinkedIn:** https://www.linkedin.com/in/thinkingslow (posts on content + AI)
 - **Why chosen:** Documents a real, editorially-rigorous **AI content process** — including "Content Engineering with Claude Code," the exact tool 100Hires uses. Best-in-class on combining AI with human judgment.
 
-## 5. Koray Tuğberk Gübür — *collect from YouTube*
+## 5. Koray Tuğberk Gübür — *collect from LinkedIn*
 - **Role:** Founder / CEO of Holistic SEO & Digital; originator of the "Topical Authority" methodology.
-- **YouTube:** https://www.youtube.com/@TopicalAuthority · LinkedIn (backup): https://www.linkedin.com/in/koray-tugberk-gubur
-- **Why chosen:** The most **original methodology** voice — semantic SEO, topical maps, and custom AI agents for content production. Runs his own search-engine A/B tests. Deep and differentiated.
+- **LinkedIn:** https://www.linkedin.com/in/koray-tugberk-gubur · YouTube: https://www.youtube.com/@TopicalAuthority
+- **Why chosen:** The most **original methodology** voice — semantic SEO, topical maps, and custom AI agents for content production. Runs his own search-engine A/B tests. Deep and differentiated. *(His YouTube is ~9 months stale, so I collect his recent posts from LinkedIn/Medium.)*
 
 ## 6. Julian Goldie — *collect from YouTube*
 - **Role:** Founder of Goldie Agency; AI-SEO educator.
 - **YouTube:** https://www.youtube.com/@JulianGoldieSEO · LinkedIn (backup): https://www.linkedin.com/in/juliangoldieseo/
 - **Why chosen:** High-volume, **hands-on AI content & automation workflows** ("ranked 3,000+ articles using AI in 90 days") and case studies. The "operator at scale" voice — high volume, so signal must be filtered (a useful judgment exercise).
 
-## 7. Gael Breton — *collect from YouTube*
+## 7. Gael Breton — *collect from LinkedIn*
 - **Role:** Co-founder of Authority Hacker (marketing education); host of the Authority Hacker Podcast.
-- **YouTube:** https://www.youtube.com/@AuthorityHacker · LinkedIn (backup): https://www.linkedin.com/in/gael-breton-78305118
-- **Why chosen:** High-production **AI content workflows and automation** grounded in case studies — and a **thoughtful skeptic** of mass AI content. Including a credible skeptic is deliberate: balanced judgment, not hype.
+- **LinkedIn:** https://www.linkedin.com/in/gael-breton-78305118 · YouTube: https://www.youtube.com/channel/UCTvgSAxisCh58hjzlMdED0A
+- **Why chosen:** **AI content workflows and automation** grounded in case studies — and a **thoughtful skeptic** of mass AI content. Including a credible skeptic is deliberate: balanced judgment, not hype. *(His YouTube recently drifted to AI-industry news, so I collect his SEO/content-specific takes from LinkedIn.)*
 
 ## 8. Steve Toth — *collect from LinkedIn*
 - **Role:** Founder of SEO Notebook (and AI Notebook); runs a 7-figure SEO agency.
 - **LinkedIn:** https://www.linkedin.com/in/stevetothjr/ (~50K followers, posts daily)
 - **Why chosen:** Practical, **framework-driven content strategies** posted daily, plus AI Notebook on ranking in AI search (AI Overviews, ChatGPT Search). Clean, reusable templates.
 
-## 9. Aleyda Solis — *collect from YouTube*
-- **Role:** Founder of Orainti; host of the Crawling Mondays video/podcast series; creator of LearningSEO.io.
-- **YouTube:** https://www.youtube.com/c/crawlingmondaysbyaleyda · LinkedIn (backup): https://www.linkedin.com/in/aleyda
-- **Why chosen:** Fills the **podcast-host** archetype and is one of the most current voices on **AI search optimization**. Crawling Mondays is tactical and easy to collect via transcript.
+## 9. Aleyda Solis — *collect from LinkedIn*
+- **Role:** Founder of Orainti; host of the Crawling Mondays video/podcast series; creator of LearningSEO.io and SEOFOMO.
+- **LinkedIn:** https://www.linkedin.com/in/aleyda · YouTube: https://www.youtube.com/c/crawlingmondaysbyaleyda
+- **Why chosen:** One of the most current voices on **AI search optimization**, via SEOFOMO and her daily LinkedIn posts. *(Her Crawling Mondays YouTube has slowed — newest ~5 months old — so I collect her recent material from LinkedIn.)*
 
 ## 10. Lily Ray — *collect from LinkedIn or YouTube*
 - **Role:** VP, SEO & AI Search at Amsive; founder of consultancy Algorythmic.

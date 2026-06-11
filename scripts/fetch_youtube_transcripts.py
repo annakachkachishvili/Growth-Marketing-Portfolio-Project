@@ -41,20 +41,27 @@ OUT_DIR = pathlib.Path(__file__).resolve().parent.parent / "research" / "youtube
 # ---------------------------------------------------------------------------
 VIDEOS = {
     "jesse-cunningham": [
-        # "https://www.youtube.com/watch?v=XXXXXXXXXXX",
-    ],
-    "koray-tugberk-gubur": [
-        # "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+        "https://www.youtube.com/watch?v=O9Ys-6ArGVs",  # Ranking on Google AI Overviews & ChatGPT on Autopilot
+        "https://www.youtube.com/watch?v=qX0Hme7J9P4",  # The 5-AI System to Make Money w/ SEO Online
+        "https://www.youtube.com/watch?v=XxTY7LFEliQ",  # Using ChatGPT "SUPER" Mode (API grounded data)
     ],
     "julian-goldie": [
-        # "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+        "https://www.youtube.com/watch?v=YSYjs3L3MMU",  # How I Run My Entire SEO From One Dashboard
+        "https://www.youtube.com/watch?v=nTyLa_zavfs",  # Get ChatGPT to Recommend Any Product Over Competitors (GEO)
+        "https://www.youtube.com/watch?v=8NAjD6HcHzk",  # How to Rank #1 with Claude Fable 5 AI SEO
     ],
-    "gael-breton-authority-hacker": [
-        # "https://www.youtube.com/watch?v=XXXXXXXXXXX",
-    ],
-    "aleyda-solis-crawling-mondays": [
-        # "https://www.youtube.com/watch?v=XXXXXXXXXXX",
-    ],
+    # Koray, Aleyda, and Gael are collected from LinkedIn instead — their YouTube
+    # channels are stale (Koray 9mo, Aleyda 5mo) or off-topic for AI-SEO content.
+}
+
+# Nice filenames (the transcript API doesn't return titles).
+TITLES = {
+    "O9Ys-6ArGVs": "Ranking on Google AI Overviews and ChatGPT on Autopilot",
+    "qX0Hme7J9P4": "The 5-AI System to Make Money with SEO Online",
+    "XxTY7LFEliQ": "Using ChatGPT SUPER Mode with API Grounded Data",
+    "YSYjs3L3MMU": "How I Run My Entire SEO From One Dashboard",
+    "nTyLa_zavfs": "Get ChatGPT to Recommend Any Product Over Competitors",
+    "8NAjD6HcHzk": "How to Rank Number 1 with Claude Fable 5 AI SEO",
 }
 
 
@@ -63,25 +70,32 @@ def slugify(text: str) -> str:
     return re.sub(r"[\s_-]+", "-", text)[:80] or "video"
 
 
+def extract_video_id(url: str) -> str:
+    m = re.search(r"[?&]v=([\w-]+)", url) or re.search(r"youtu\.be/([\w-]+)", url)
+    return m.group(1) if m else url
+
+
 def fetch_transcript(video_url: str) -> dict:
     """Call Supadata and return {'text': ..., 'title': ...}."""
+    vid = extract_video_id(video_url)
     resp = requests.get(
         API_URL,
-        params={"url": video_url, "text": "true"},   # text=true => plain text
+        params={"videoId": vid},   # proven combo; do NOT add text=true (causes 503)
         headers={"x-api-key": API_KEY},
         timeout=60,
     )
     resp.raise_for_status()
     data = resp.json()
 
-    # Supadata returns the plain transcript in "content" when text=true.
-    # Fall back to joining segments if the shape is different.
-    text = data.get("content")
-    if not text and isinstance(data.get("transcript"), list):
-        text = " ".join(seg.get("text", "") for seg in data["transcript"])
-    if not text and isinstance(data.get("content"), list):
-        text = " ".join(seg.get("text", "") for seg in data["content"])
-    return {"text": text or "", "title": data.get("title", "")}
+    # Supadata returns "content" as a list of {text, offset, duration} segments.
+    content = data.get("content")
+    if isinstance(content, list):
+        text = " ".join(seg.get("text", "") for seg in content)
+    elif isinstance(content, str):
+        text = content
+    else:
+        text = ""
+    return {"text": text, "title": data.get("title", "")}
 
 
 def main():
@@ -111,7 +125,7 @@ def main():
                 print(f"  ! No transcript returned for {url}")
                 continue
 
-            title = result["title"] or url.split("=")[-1]
+            title = TITLES.get(extract_video_id(url)) or result["title"] or url.split("=")[-1]
             fname = author_dir / f"{slugify(title)}.md"
             fname.write_text(
                 f"# {title}\n\n"
