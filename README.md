@@ -82,7 +82,7 @@ The full annotated list with links is in **[`/research/sources.md`](research/sou
 |----|------------------|---------------------|---------------------------------------------|
 | 1  | Jake Ward        | LinkedIn            | Programmatic SEO + AI content at scale      |
 | 2  | Jesse Cunningham | YouTube             | AI content production at scale              |
-| 3  | Bernard Huang    | LinkedIn            | Ranking AI content; content optimization    |
+| 3  | Kevin Indig      | LinkedIn            | AI-search strategy & visibility measurement |
 | 4  | Ryan Law         | LinkedIn            | AI content process + Claude Code            |
 | 5  | Koray T. Gübür   | LinkedIn            | Semantic SEO + AI agents                    |
 | 6  | Julian Goldie    | YouTube             | AI content & automation workflows           |
@@ -91,7 +91,7 @@ The full annotated list with links is in **[`/research/sources.md`](research/sou
 | 9  | Aleyda Solis     | LinkedIn            | AI search optimization                      |
 | 10 | Lily Ray         | LinkedIn / YouTube  | Content quality, E-E-A-T, AI search         |
 
-**Collection split:** 8 from LinkedIn (Ward, Huang, Law, Koray, Gael, Toth, Aleyda, Ray) · 2 from YouTube (Cunningham, Goldie) — using both collection methods the brief asks for. The YouTube set was deliberately narrowed: I verified each channel's live uploads (June 2026) and kept only creators who are both recent *and* on-topic for AI-SEO content; experts whose YouTube had gone stale or off-topic are collected from LinkedIn, where they remain active.
+**Collection split:** 8 from LinkedIn (Ward, Indig, Law, Koray, Gael, Toth, Aleyda, Ray) · 2 from YouTube (Cunningham, Goldie) — using both collection methods the brief asks for. The YouTube set was deliberately narrowed: I verified each channel's live uploads (June 2026) and kept only creators who are both recent *and* on-topic for AI-SEO content; experts whose YouTube had gone stale or off-topic are collected from LinkedIn, where they remain active.
 
 ## Repository structure
 

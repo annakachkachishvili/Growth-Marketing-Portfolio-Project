@@ -16,7 +16,7 @@ All three archetypes from the brief are represented — LinkedIn authors, YouTub
 |---|------|----------------|------------------|---------------|
 | 1 | Jake Ward | Co-founder, Byword | **LinkedIn** | [in/jakezward](https://www.linkedin.com/in/jakezward/) |
 | 2 | Jesse Cunningham | Founder, SEO agency | **YouTube** | [@jessecunninghamv](https://www.youtube.com/@jessecunninghamv) |
-| 3 | Bernard Huang | Founder, Clearscope | **LinkedIn** | [in/bernardjhuang](https://www.linkedin.com/in/bernardjhuang/) |
+| 3 | Kevin Indig | Growth advisor; Growth Memo | **LinkedIn** | [in/kevinindig](https://www.linkedin.com/in/kevinindig/) |
 | 4 | Ryan Law | Dir. of Content, Ahrefs | **LinkedIn** | [in/thinkingslow](https://www.linkedin.com/in/thinkingslow) |
 | 5 | Koray T. Gübür | Founder, Holistic SEO | **LinkedIn** | [in/koray-tugberk-gubur](https://www.linkedin.com/in/koray-tugberk-gubur) |
 | 6 | Julian Goldie | Founder, Goldie Agency | **YouTube** | [@JulianGoldieSEO](https://www.youtube.com/@JulianGoldieSEO) |
@@ -25,7 +25,7 @@ All three archetypes from the brief are represented — LinkedIn authors, YouTub
 | 9 | Aleyda Solis | Founder, Orainti | **LinkedIn** | [in/aleyda](https://www.linkedin.com/in/aleyda) |
 | 10 | Lily Ray | VP SEO & AI Search, Amsive | **LinkedIn / YouTube** | [in/lily-ray-44755615](https://www.linkedin.com/in/lily-ray-44755615) · [@lilyray](https://www.youtube.com/@lilyray) |
 
-**Collection split:** 8 from LinkedIn (Ward, Huang, Law, Koray, Gael, Toth, Aleyda, Ray) · 2 from YouTube (Cunningham, Goldie).
+**Collection split:** 8 from LinkedIn (Ward, Indig, Law, Koray, Gael, Toth, Aleyda, Ray) · 2 from YouTube (Cunningham, Goldie).
 
 > **Why this split:** I verified each YouTube channel's live uploads (June 2026). Only Jesse Cunningham and Julian Goldie are both *recent* and *on-topic* for AI-SEO content. Koray's YouTube is ~9 months stale and Aleyda's ~5 months, while Gael Breton's recent uploads drifted to general AI-industry news. All three remain strong experts but are far more active on LinkedIn, so I collect their recent material there. (See decision log, Entry 5.)
 
@@ -41,10 +41,10 @@ All three archetypes from the brief are represented — LinkedIn authors, YouTub
 - **YouTube:** https://www.youtube.com/@jessecunninghamv (2M+ views) · LinkedIn (backup): https://www.linkedin.com/in/jessecunninghamv/
 - **Why chosen:** Pure topic fit — his channel is about **producing high-quality AI content at scale** while protecting topical authority. Operator, not theorist; shares real experiments and case studies.
 
-## 3. Bernard Huang — *collect from LinkedIn*
-- **Role:** Founder of Clearscope (content-first SEO platform).
-- **LinkedIn:** https://www.linkedin.com/in/bernardjhuang/ (active weekly — Answer Engine Optimization, AI citations, AI Overviews)
-- **Why chosen:** One of the clearest voices on **ranking content in the era of generative AI** and content optimization. *(Note: his video content lives on the Clearscope company channel, so we collect his original posts from LinkedIn.)*
+## 3. Kevin Indig — *collect from LinkedIn*
+- **Role:** Growth advisor (ex-Shopify / G2 / Atlassian); author of the *Growth Memo* newsletter.
+- **LinkedIn:** https://www.linkedin.com/in/kevinindig/ (posts almost daily on AI search & SEO)
+- **Why chosen:** One of the most rigorous, research-driven voices on **measuring and winning AI-search visibility** — e.g. treating prompt tracking like polling (sample design, personas, confidence intervals) rather than rank tracking. Strong on the *strategy + measurement* side of AI-SEO content.
 
 ## 4. Ryan Law — *collect from LinkedIn*
 - **Role:** Director of Content Marketing at Ahrefs (former CMO at Animalz).
@@ -85,8 +85,8 @@ All three archetypes from the brief are represented — LinkedIn authors, YouTub
 
 ### How this set covers the pipeline
 - **Production at scale:** Jake Ward, Jesse Cunningham, Julian Goldie
-- **Content optimization:** Bernard Huang, Ryan Law, Koray Gübür
-- **Frameworks & strategy:** Steve Toth, Aleyda Solis
+- **Content process & optimization:** Ryan Law, Koray Gübür
+- **AI-search strategy & measurement:** Kevin Indig, Steve Toth, Aleyda Solis
 - **Workflows + healthy skepticism:** Gael Breton
 - **Quality & judgment (good vs. AI garbage):** Lily Ray
 
