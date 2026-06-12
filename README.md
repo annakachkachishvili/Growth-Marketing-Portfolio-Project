@@ -104,7 +104,8 @@ README.md                         # this file (Step 1 setup + Step 2 research)
   ├── linkedin-posts/             # collected posts by author (8 experts) + index
   ├── youtube-transcripts/        # collected transcripts by author (2 experts) + index
   └── other/
-        └── key-studies.md        # primary data/studies/patents the experts cite
+        ├── expert-owned-content.md # experts' blogs/newsletters/guides (deeper than their posts)
+        └── key-studies.md          # primary data/studies/patents the experts cite
 /scripts
   ├── fetch_youtube_transcripts.py  # pulls transcripts via the Supadata API
   ├── list_latest_videos.py         # lists a channel's recent uploads via the API
