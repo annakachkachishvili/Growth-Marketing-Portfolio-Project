@@ -6,7 +6,7 @@ This is a curated, annotated index of each expert's owned channels and their str
 
 > These are pointers to the experts' own published work — links + annotations, not copies of their content.
 >
-> For the highest-value flagship pieces, I went further than linking: I read them and wrote structured **deep-dive notes** (thesis, frameworks, data, playbook takeaway). See [`article-deep-dives/`](article-deep-dives/).
+> For the highest-value flagship pieces, I went further than linking: I read them and captured the substance (thesis, frameworks, data, key passages, playbook takeaway), organized **per author** in [`articles/`](articles/).
 
 ---
 
