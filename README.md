@@ -104,6 +104,7 @@ README.md                         # this file (Step 1 setup + Step 2 research)
   ├── linkedin-posts/             # collected posts by author (8 experts) + index
   ├── youtube-transcripts/        # collected transcripts by author (2 experts) + index
   └── other/
+        ├── article-deep-dives/    # structured notes on 4 flagship long-form articles (read & synthesized)
         ├── expert-owned-content.md # experts' blogs/newsletters/guides (deeper than their posts)
         └── key-studies.md          # primary data/studies/patents the experts cite
 /scripts

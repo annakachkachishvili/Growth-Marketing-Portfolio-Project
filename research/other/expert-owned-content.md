@@ -5,6 +5,8 @@ The LinkedIn posts and YouTube transcripts in this repo are the experts' *short-
 This is a curated, annotated index of each expert's owned channels and their strongest AI-SEO-content pieces (verified June 2026). Each entry notes *why it matters for the playbook.*
 
 > These are pointers to the experts' own published work — links + annotations, not copies of their content.
+>
+> For the highest-value flagship pieces, I went further than linking: I read them and wrote structured **deep-dive notes** (thesis, frameworks, data, playbook takeaway). See [`article-deep-dives/`](article-deep-dives/).
 
 ---
 
