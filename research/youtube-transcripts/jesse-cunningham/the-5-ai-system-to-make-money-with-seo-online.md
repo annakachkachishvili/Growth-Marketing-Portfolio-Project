@@ -4,7 +4,7 @@
 - **Source:** https://www.youtube.com/watch?v=qX0Hme7J9P4
 - **Collected:** 2026-06-12
 - **Method:** Supadata YouTube Transcript API
-- *Auto-generated transcript, formatted into timestamped paragraphs for readability. Transcription artifacts (e.g. "GBT" for GPT) are verbatim from the auto-captions.*
+- *Auto-generated transcript, formatted into timestamped paragraphs and lightly corrected for obvious transcription errors (e.g. "GBT"→"GPT", "SERs"→"SERPs", "HFS"→"Ahrefs"). The speakers' actual wording is otherwise unchanged.*
 
 ---
 
@@ -30,7 +30,7 @@
 
 **[01:40]** we have the research assistant here, and it's a it's basically a custom GPT that talks with real world keyword data. If you don't know SEO, this is a great way to get up to speed. you can start selling audits that are super valuable to get your foot in the door. And we actually have people in the community that started from zero, didn't know anything, set this thing up, and now they have I think Brian has a couple of clients, Nadia has a couple of clients, and they're they're like delivering really good work because of this. And
 
-**[02:12]** even agency owners, uh, advanced SEOs tell us this is an absolute game changer. this one here. If you go back to the classroom, where did we find this one? So, if we come back to classroom and school, let's see here. >> It's AI AI tools and workflows right here. >> Uhhuh. The heart >> and then it's >> and we have other things here too, right? But >> not to overwhelm people, but the SEO research assistant is simply a chat GBT plus an API. Very, very simple. >> Exactly. First thing you're going to
+**[02:12]** even agency owners, uh, advanced SEOs tell us this is an absolute game changer. this one here. If you go back to the classroom, where did we find this one? So, if we come back to classroom and school, let's see here. >> It's AI AI tools and workflows right here. >> Uhhuh. The heart >> and then it's >> and we have other things here too, right? But >> not to overwhelm people, but the SEO research assistant is simply a ChatGPT plus an API. Very, very simple. >> Exactly. First thing you're going to
 
 **[02:46]** learn is this right here. >> Yes. Just that alone is is a $40,000 a year tool/skill. I think so. The next example is to build out $20,000 websites for just a buck or something using something called vibe coding. People are talking about this a lot nowadays, but we have have people in the community that are actually doing this and actually making money with it. And that is a really cool development. I think >> we were talking about this is the
 
@@ -76,7 +76,7 @@
 
 **[14:36]** out what the client needs, and then they give it to them and then they uh they uh they retain them for months and they uh so Brian is a good example. He's actually in a good position to start an agency now. he's maybe three months in and he didn't know SEO at all. So, it's absolutely possible nowadays. Um, but we do need to use our own judgment along the way. >> Well, good. Now, this is like the recap. I say that for the next video, if if you think it's a good idea, Sean, let's do
 
-**[15:10]** GBT plus the API to show people how to use the grounded data. Super strong. It's one of the first things they use in the school community. But if you can, can you toggle back to the school community and just do a run through of the classroom and just go over like what each module does? We don't have to click into them, just a visual. >> Yeah, absolutely. So, we we at the top start here to to start you off. This shows you the paths that you can choose. We have three paths to $1,000 and then we gear you up so you get access to the the research assistant and other tools.
+**[15:10]** GPT plus the API to show people how to use the grounded data. Super strong. It's one of the first things they use in the school community. But if you can, can you toggle back to the school community and just do a run through of the classroom and just go over like what each module does? We don't have to click into them, just a visual. >> Yeah, absolutely. So, we we at the top start here to to start you off. This shows you the paths that you can choose. We have three paths to $1,000 and then we gear you up so you get access to the the research assistant and other tools.
 
 **[15:44]** Uh then we have a AI workflows. We have the courses here and then the three paths are here. So this is basically three routes. You can pick whichever one suits you most. You can start an agency, you can do lead generation using the microite uh system or you can just use AI in 90 days, go from 9 to5 to freedom and make your first $1,000. And we have people in the community that have done this path very successfully. And that's very inspiring to see. So, and then we have all these courses here below. But
 

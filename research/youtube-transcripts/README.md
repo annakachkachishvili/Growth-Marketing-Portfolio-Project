@@ -5,7 +5,7 @@ Recent videos (last ~3 months) from the two AI-SEO-content experts who are activ
 **Each file is structured as:**
 1. **Metadata** — title, source URL, collection date, method.
 2. **Key points (my synthesis)** — 4–6 bullets distilling the actual tactics, clearly labeled as my notes (not the creator's words), with a skeptical caveat where the video is really a sales pitch.
-3. **Transcript** — the verbatim auto-generated transcript, formatted into timestamped paragraphs (`[mm:ss]`) for readability. Transcription artifacts (e.g. "GBT" for GPT) are left as-is.
+3. **Transcript** — the verbatim auto-generated transcript, formatted into timestamped paragraphs (`[mm:ss]`) for readability. Obvious transcription errors (e.g. "GBT" → "GPT", "SERs" → "SERPs", "HFS" → "Ahrefs") have been corrected; the speakers' wording is otherwise unchanged.
 
 ## Index
 

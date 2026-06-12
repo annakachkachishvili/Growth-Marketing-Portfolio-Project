@@ -33,7 +33,7 @@ Notes on the implementation:
 - The transcript API returns **segments** (`{text, offset, duration}`), which the script groups into ~30-second paragraphs prefixed with a `[mm:ss]` timestamp for readability.
 - Calls use the `videoId` parameter (the combo I verified works) and a 2.2s delay between requests to stay under the rate limit.
 - A small `TITLES` map gives each output file a human-readable filename.
-- After the script runs, I add a **"Key points" synthesis** to the top of each transcript by hand — clearly labelled as my own notes, with the verbatim transcript preserved below as the source.
+- After the script runs, I add a **"Key points" synthesis** to the top of each transcript by hand — clearly labelled as my own notes, with the transcript (lightly corrected for obvious transcription errors) preserved below as the source.
 
 ## Why two collection methods
 

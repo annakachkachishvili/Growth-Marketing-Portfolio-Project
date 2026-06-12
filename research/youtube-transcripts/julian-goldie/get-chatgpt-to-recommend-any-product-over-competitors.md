@@ -4,7 +4,7 @@
 - **Source:** https://www.youtube.com/watch?v=nTyLa_zavfs
 - **Collected:** 2026-06-12
 - **Method:** Supadata YouTube Transcript API
-- *Auto-generated transcript, formatted into timestamped paragraphs for readability. Transcription artifacts (e.g. "GBT" for GPT) are verbatim from the auto-captions.*
+- *Auto-generated transcript, formatted into timestamped paragraphs and lightly corrected for obvious transcription errors (e.g. "GBT"→"GPT", "SERs"→"SERPs", "HFS"→"Ahrefs"). The speakers' actual wording is otherwise unchanged.*
 
 ---
 

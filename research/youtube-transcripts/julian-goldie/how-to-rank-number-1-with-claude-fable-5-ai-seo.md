@@ -4,7 +4,7 @@
 - **Source:** https://www.youtube.com/watch?v=8NAjD6HcHzk
 - **Collected:** 2026-06-12
 - **Method:** Supadata YouTube Transcript API
-- *Auto-generated transcript, formatted into timestamped paragraphs for readability. Transcription artifacts (e.g. "GBT" for GPT) are verbatim from the auto-captions.*
+- *Auto-generated transcript, formatted into timestamped paragraphs and lightly corrected for obvious transcription errors (e.g. "GBT"→"GPT", "SERs"→"SERPs", "HFS"→"Ahrefs"). The speakers' actual wording is otherwise unchanged.*
 
 ---
 
@@ -26,7 +26,7 @@
 
 **[00:32]** that I know how to use it. So let me show you some examples first of us ranking based on this. So you can see for example we type in best AI school community on Google. It's an example response. You can see that we are ranking number one inside Google AI overview mode for that keyword right recommends the AI profit volume. That's my community. And then if we scroll down here you can also see us ranking here and here for that particular keyword right. And so we're ranking multiple times on the first page of Google for this keyword. You see, for example, we've got a website that's ranking over here, right? And so if we actually go to AI mode as well for this keyword and we
 
-**[01:07]** type in the same keyword, you can see that we are ranking number one inside Google AI mode too. And so we can use claude to power all this. And the power here is we can actually rank inside AI. We can rank inside Chat GPT. We can be recommended with AI search engines. We can rank inside Google. It's a really powerful system that I'm about to show you. So, how does this work? Basically, Anthropic have just shipped the most powerful Claude ever made which scores 95% on SWB verified. It's got a million token context window and it can work for hours without losing context. And so,
+**[01:07]** type in the same keyword, you can see that we are ranking number one inside Google AI mode too. And so we can use claude to power all this. And the power here is we can actually rank inside AI. We can rank inside ChatGPT. We can be recommended with AI search engines. We can rank inside Google. It's a really powerful system that I'm about to show you. So, how does this work? Basically, Anthropic have just shipped the most powerful Claude ever made which scores 95% on SWB verified. It's got a million token context window and it can work for hours without losing context. And so,
 
 **[01:40]** we've actually created this SEO pipeline tool as you can see right here. You can use this to just pick a keyword, add in a case study, and then deploy to your websites. And that's exactly what we're doing here. So if you look at this website, this is the aiprofitboarding.com. All right. So this is our website the profitboarding.com. And if we take a look at the deployment history here, you can see that we are creating content on that website using this system. So this is an example of a page we created on the air profitborn.com using this system here. Now what we've actually done is we
 
