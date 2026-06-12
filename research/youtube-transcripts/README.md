@@ -5,7 +5,11 @@ Recent videos (last ~3 months) from the two AI-SEO-content experts who are activ
 **Each file is structured as:**
 1. **Metadata** — title, source URL, collection date, method.
 2. **Key points (my synthesis)** — 4–6 bullets distilling the actual tactics, clearly labeled as my notes (not the creator's words), with a skeptical caveat where the video is really a sales pitch.
-3. **Transcript** — the verbatim auto-generated transcript, formatted into timestamped paragraphs (`[mm:ss]`) for readability. Obvious transcription errors (e.g. "GBT" → "GPT", "SERs" → "SERPs", "HFS" → "Ahrefs") have been corrected; the speakers' wording is otherwise unchanged.
+3. **Transcript** — the auto-generated transcript, formatted into timestamped paragraphs (`[mm:ss]`) for readability. Obvious transcription errors (e.g. "GBT" → "GPT", "SERs" → "SERPs", "HFS" → "Ahrefs") have been corrected; the speakers' wording is otherwise unchanged.
+
+## Quality check
+
+I didn't just dump the auto-captions and move on — I read through every transcript line by line after collection and corrected the speech-to-text errors I found (mainly mis-heard names and abbreviations: "GBT"/"JBT" → "GPT", "chatbt" → "ChatGPT", "SERs" → "SERPs", "HFS"/"Hrefs" → "Ahrefs"). These transcripts are meant to be clean, working source material for the playbook, so I wanted them accurate — while being careful to fix only clear transcription mistakes, never the speaker's actual words.
 
 ## Index
 
