@@ -6,7 +6,7 @@ This repository documents the setup process for the required project environment
 
 The main goal of this stage was not just completing installation steps, but making sure the environment, integrations, and onboarding flows were actually working before moving further into the workflow.
 
-> This README covers **Step 1 — Setup** (below) and **Step 2 — Research Project: AI-Powered SEO Content Production** (further down).
+> This README covers **Step 1 — Setup** (below), **Step 2 — Research Project: AI-Powered SEO Content Production** (further down), and **Step 3 — the Playbook**, which lives in **[`PLAYBOOK.md`](PLAYBOOK.md)**.
 
 ---
 
@@ -96,7 +96,8 @@ The full annotated list with links is in **[`/research/sources.md`](research/sou
 ## Repository map
 
 ```
-README.md                         # this file (Step 1 setup + Step 2 research)
+README.md                         # this file (Step 1 setup + Step 2 research + Step 3 pointer)
+PLAYBOOK.md                       # Step 3: the AI-SEO content playbook built from this research
 /research
   ├── sources.md                  # the 10 experts: roles, links, annotations
   ├── methodology.md              # how I sourced, scored & verified them (+ who I cut)
@@ -139,6 +140,22 @@ The judgment calls — which topic to pick, which experts made the cut, who to d
 
 I didn't want to stop at collecting links. [`research/key-themes.md`](research/key-themes.md) distills the cross-cutting patterns across all 10 experts — e.g. *"AEO is an extension of SEO, not a new channel," "win on information gain, not polish," "ground the model in real data and build systems not prompts," "measure AI visibility like polling"* — and maps each theme to the experts who support it and what it implies for a playbook. It's an early read, but it shows the material is already converging on a clear structure.
 
-## What's next
+---
+---
 
-This collected material (and the themes above) is the raw input for turning the research into a structured, original **AI-SEO content playbook** in a later step. The four layers that are already emerging — foundation, production system, distribution/consensus, and measurement — are sketched at the end of `key-themes.md`.
+# Step 3 — The Playbook
+
+The research above is now a working document: **[`PLAYBOOK.md`](PLAYBOOK.md)** — a four-layer SOP (foundation → production → distribution/consensus → measurement) for AI-powered SEO content production at a B2B SaaS like 100Hires. Every recommendation cites its source with an exact dated link and, where the material was collected in Step 2, a second link to the verbatim copy in [`/research/`](research/) — so any claim can be checked against the text it came from.
+
+Beyond the SOP core, the playbook contains the judgment sections the brief asks for:
+
+- **Where experts disagree** — three real disagreements, each with both sides and a side taken and argued; plus one famous "disagreement" I checked and found false, kept as a sidebar because the dissolution was the more useful result.
+- **What I rejected and why** — four ideas from my own sources, rejected for four different reasons: evidence, incentive, dependency, and context.
+- **My original ideas** — two, not found in the sources: *trace-before-trust* (verification as a shipped practice — demonstrated in this repository, not just proposed) and a *B2C2B pull strategy* transferred from my own clinic-marketing work.
+- **Weaknesses of this playbook** — what might not work (with exits named in advance), which assumptions are untested, what's missing, and where the playbook's claims stop.
+- **Who I would NOT recommend following** — a verdict produced by applying one trust instrument to all ten experts, not a mood about one.
+- **A verification ledger** — every load-bearing number traced to its primary source before being cited. The tracing corrected two widely-quoted numbers along the way; both stories are told inside the document, because a method that never catches anything isn't a method.
+
+One technical note: the exact LinkedIn post dates cited throughout were recovered by decoding each post URL's activity ID (the first 41 bits encode the posting timestamp in milliseconds) and cross-checking against collection-time notes.
+
+Built with the same AI-assisted workflow as Step 2 — AI tools for research acceleration, drafting support, and verification mechanics; the judgment calls, side-takings, rejections, and ideas are mine to make and mine to defend.
